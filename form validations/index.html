@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+<html>
+<head>
+<title>
+</title>
+<script defer src = "./script.js"></script>
+<link rel = "stylesheet" type = "text/css" href = "./style.css">
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h2>Create Account</h2>
+	</div>
+	<form id="form" class="form">
+		<div class="form-control">
+			<label for="username">Username</label>
+			<input type="text" placeholder="username" id="username" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="email" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="mobile">Mobile</label>
+			<input type="text" placeholder="not more than 10 numbers" id="mobile" required>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+		<td class = "f1">Gender</td>
+					<td><input type="radio" name="Gender" value="Male" id = "male" required>
+					<label for = "male">Male</label>
+					<input type="radio" name="Gender" value="Female" id = "female" required>
+					<label for = "female">Female</label>
+		</div>
+		<button>Submit</button>
+	</form>
+</div>
+
+
+
+</body>
+</html>
